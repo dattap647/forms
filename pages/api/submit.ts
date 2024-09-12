@@ -54,15 +54,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   } catch (error) {
     console.error(error); // Log the error for debugging purposes
 
-    // Handle specific API errors (optional)
-    if (error.code && error.response) {
-      const statusCode = error.code;
-      const errorMessage = error.response.data.error.message;
-
-      return res.status(statusCode).json({ error: errorMessage });
-    }
-
-    // Generic error handling
-    return res.status(500).json({ error: 'An unexpected error occurred.' });
+      return res.status(200).json({ error: 'SOmething went wrong' });
+  
   }
 }
