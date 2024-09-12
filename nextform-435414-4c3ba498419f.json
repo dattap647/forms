@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "nextform-435414",
+  "private_key_id": "4c3ba498419fd3e12eb86079f572bba30fe570f8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC8/TEfd3E8j9gS\nIOz/IzVaCEhSt0zpudHLiWNeDRfaUVbMVukSl7s/QIwNbhk587jbdGqX+7GW6Lyn\nTmRLuM0Q4dyOg08rpCp++SIWjHHlVPigUEGnLM0PhVWyzM9nUjcHKgJe8p5zglse\n81KRXt/+HxuDd5fw1+ZiEP//GvddChxpzj9iA9SAkG6+DnZgcyBR1oTJNJoMc2BQ\nzCkGn8x+XejJ+Vx1qk2KP50yAGiQdrxvF+d5CbBSqkbfQAcGhlD7FM+Kv/YA4Hy9\nJt43ydPmaGRjqFIhRxYGSldXTcmy+EktUlcqvPhzqpdsxmkqsyV96Px4sgBG8oVZ\nC3JRy3Q9AgMBAAECggEAEL0KF0PgcyE4XW6uHvDS3l0CbtUOSlsrYjASbXeSZ8Mx\ngVqnPP7UVkdUwDHCqTfVZRZ8BGcF9Rw67USLrIs7GmYuvy6RGgfpvaI6Ky4YPlwW\nwzgogHJ+3QONsg7ixb9p4UgOurMZZpiikmyxoO96vkqqCKxUeD/fB0uDKOiOBR7j\nc/TKH98eOlQWLSyHCAjJXRGiNO1Bil+Krv+Echj3EB0255q+3A76Vj5tNA71+pAR\ng1d0yqfSxuU3nWBPmqK5AwCPExL5e2XFF4sD9dEaOWjQKOsalXv2FgCh8zYoyOuf\nQDMRtKjY34+Pz/Wka+mRNM631HqCRRJ0/OjZK4xi/wKBgQD0f1kCfCtir3zxTprt\nzlsggt9JfNHBj0hRHD7LMexAYQOTwicpaTNmYFuSJCVtP9psymaoKm6SQjw9AkPV\nxmHjJndq8JIWVdvqxee6UbjkqUaUusg6EvcCK16inzgTs5JXr8l4QeHS8Zf1SiIW\nv5W7XBHHtNfA+CnC2JJ08L0L1wKBgQDF4VFbH7Lob5133eZqIuqTsdA1sc3jBiaU\nkroRcCu+srhLVfG2jXPz4LYLmygNIbnsZFMJL9apEcZ3TW5KIJ2kPp1vBuSG2Uso\nnDvgXHta35YhtFSo9GwDoGhStJiFz5JkbrlHW/E9s/qf3PAeknS2b+hVl3J7e9N/\nErpNyOVeCwKBgHBKKIQWqQpa1IQy+L6tHncRBCHJHMDL4Ie39DL4S6vJoo3zBm9j\nbILhUE0PIs1JHTUHxBwJ2Nx9ZRMT/jmpMf3UBdZshHuTlTv/Bo0wyTzjbZITMrBR\nU3aAmqcPfv61Y0m4Z0w+3cs2v/acxIk0Fj2FbHkO2mQ61VsyghkJE5njAoGATMOs\nG/2gGiuymt2qlWIWPlWswCfKB1hLfzeslzc8wS3z8MXWj0swwFtcRARc9TswNVR2\nIgo87DnJFF8lefxNK3pe+MNjxCxny8lQMSmvcQFr7IdYkHLBtGZ2Eh+dS8vKrsuF\ndPlmDNnVUE8Vl8aZIG0pZIrsDptq4NETFTnqQSECgYAsaKtN3iYlTySOOhxPK0NV\ndJZjr5hw1b6/EywVwKxzj5tNsna/vklcGkjUJjppnCzcA+yCdGF9a1KlcBK0SCe9\nHobDP+pJnUozBE4IgoBHe/c8sUMsI22HsiYq23gTx5O4AtbD2SmjhmIq0r+fkc5Y\n3IRdMIHM0EQnQXqDu8ODOg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "spreadsheet@nextform-435414.iam.gserviceaccount.com",
+  "client_id": "102396013010265962198",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/spreadsheet%40nextform-435414.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
