@@ -6,6 +6,7 @@ export default function Home() {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
+  const [course,setCourse]=useState('')
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -13,7 +14,8 @@ export default function Home() {
       name,
       email,
       phone,
-      message,
+      course,
+      message
     };
 
     const response = await fetch("/api/submit", {
@@ -81,6 +83,15 @@ export default function Home() {
               className="shadow-md focus:ring-indigo-500 focus:border-indigo-500"
               placeholder="Your Phone"
             />
+          </div>
+          <div className="flex items-center justify-center">
+            <label htmlFor="course" id='course' className="sr-only">
+              Course Type
+            </label>
+            <select name="Course" id="Course" onChange={e=>setCourse(e.target.value)} value={course}>
+              <option value="chess"> Chess</option>
+              <option value="web-development"> Web Development</option>
+            </select>
           </div>
 
           <div className="flex items-center justify-center">

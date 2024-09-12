@@ -7,6 +7,7 @@ type sheetForm = {
   email: string;
   phone: string;
   message: string;
+  course:string
 };
 
 const GOOGLE_CLIENT_EMAIL = 'spreadsheet@nextform-435414.iam.gserviceaccount.com';
@@ -42,10 +43,10 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
     const response = await sheets.spreadsheets.values.append({
       spreadsheetId: GOOGLE_SHEET_ID,
-      range: 'A1:D1',
+      range: 'A1:E1',
       valueInputOption: 'USER_ENTERED',
       requestBody: {
-        values: [[body.name, body.email, body.phone, body.message]], // Wrap in an array
+        values: [[body.name, body.email, body.phone, body.course,body.message]], // Wrap in an array
       },
     });
 
